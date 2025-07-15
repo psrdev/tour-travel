@@ -1,7 +1,7 @@
 <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content rounded-4 shadow">
-            <form method="POST" action="#" id="bookingForm">
+            <form method="POST" action="{{ route('back.booking') }}" id="bookingForm">
                 @csrf
                 <div class="modal-header border-0">
                     <h5 class="modal-title" id="bookingModalLabel">Book Now</h5>
