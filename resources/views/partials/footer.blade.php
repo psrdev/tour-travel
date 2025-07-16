@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-12">
                         <div class="footer_about mb-md-0 mb-5">
-                            <img src="{{ asset('assets/img/logo.png') }}" alt="Brolion Logo">
+                            <img src="{{ asset('assets/img/logo-white.png') }}" alt="Brolion Logo">
                             <p>
                                 Discover seamless travel experiences with Brolion Tourism. From visa assistance to
                                 curated tour packages, we make your journey unforgettable.

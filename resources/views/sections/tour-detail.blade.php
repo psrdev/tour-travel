@@ -4,6 +4,10 @@
          <div class="row">
              <div class="col-lg-8 col-12 wow fadeIn">
                  <div class="single_tour_details">
+                     <div class="tour_info overflow-hidden p-0">
+
+                         <img src="{{ asset('assets/img/tour/' . $package['image']) }}" alt="">
+                     </div>
                      <div class="tour_entry_content">
                          <h3 class="tdtitle">Tour Overview</h3>
                          <p>
