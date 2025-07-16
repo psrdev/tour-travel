@@ -121,7 +121,7 @@
                                         <p>
                                             <i class="ph ph-phone-call"></i>
                                             <span>
-                                                <a href="tel:+9856554544">+9856 55 45 44</a>
+                                                <a href="tel:+919202106551">+91 9202106551</a>
                                             </span>
                                         </p>
                                         <p>
@@ -142,7 +142,7 @@
                     <div class="col-12">
                         <div class="tr_copyright text-center">
                             <p>Copyright © 2025
-                                <a href="https://">Brolion Tourism</a> All Right Reserved.
+                                <a href="https://broliontourism.com">Brolion Tourism</a> All Right Reserved.
                             </p>
                         </div>
                     </div>

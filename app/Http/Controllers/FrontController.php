@@ -10,9 +10,10 @@ class FrontController extends Controller
 {
     public function home(PackageRepository $repo)
     {
-        $packages = $repo->all()->take(4);
+        $packages = $repo->all();
+        $catagory = $repo->all()->take(4);
         // return $packages;
-        return view('page.home', compact('packages'));
+        return view('page.home', compact('packages', 'catagory'));
     }
     public function about()
     {
@@ -61,6 +62,12 @@ class FrontController extends Controller
             'package' => $package,
             'relatedPackages' => $relatedPackages,
         ]);
+
+    }
+    public function tours(PackageRepository $repo)
+    {
+        $packages = $repo->all();
+        return view('page.tour', ['packages' => $packages]);
 
     }
 

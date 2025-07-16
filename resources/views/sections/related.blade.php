@@ -39,8 +39,7 @@
                                          <span class="pack_price align-self-end"><b>{{ $package['price'] }}</b> /
                                              <small>Person</small></span>
                                          <a href="{{ route('front.destination.package.filter', ['dest' => $package['destination_slug'], 'pack' => $package['slug']]) }}"
-                                             class="yellow_btn align-self-end ms-auto"><span>Book
-                                                 Now</span></a>
+                                             class="yellow_btn align-self-end ms-auto"><span>Details</span></a>
                                      </div>
                                  </div>
                              </div><!-- End Slide -->

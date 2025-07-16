@@ -12,7 +12,7 @@
                             <br>
                             discover handpicked experiences made just for two.
                         </p>
-                        <a href="#" class="yellow_btn active_animation">
+                        <a href="{{ route('front.destination') }}" class="yellow_btn active_animation">
                             <span>Explore More
                                 <i class="ph ph-arrow-right"></i>
                             </span>
@@ -32,7 +32,7 @@
                             <br>
                             all in one perfect family trip.
                         </p>
-                        <a href="#" class="yellow_btn active_animation">
+                        <a href="{{ route('front.destination') }}" class="yellow_btn active_animation">
                             <span>Explore More
                                 <i class="ph ph-arrow-right"></i>
                             </span>

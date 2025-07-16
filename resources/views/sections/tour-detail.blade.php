@@ -9,108 +9,33 @@
                          <p>
                              {{ $package['description'] }}
                          </p>
-                         <h5 class="tdtitle">Tour Overview</h5>
-
 
                      </div><!-- END Tour Entry Content -->
 
                      <div class="tour_info">
-                         <h4>Tour Info</h4>
-                         <ul class="trip-facts-value">
-                             <li>
-                                 <i class="fa-solid fa-calendar-days"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Accomodation</label>
-                                     <span class="value">4 Star Hotel</span>
-                                 </div>
-                             </li>
+                         <h5>Highlights</h5>
+                         <ul>
+                             @foreach ($package['highlights'] as $high)
+                                 <li>{{ $high }}</li>
+                             @endforeach
 
-                             <li>
-                                 <i class="fa-solid fa-people-group"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Group Size</label>
-                                     <span class="value">10 People</span>
-                                 </div>
-                             </li>
+                         </ul>
+                     </div><!-- END Tour Info -->
+                     <div class="tour_info">
+                         <h5>Transportation</h5>
+                         <ul>
+                             @foreach ($package['transportation'] as $trans)
+                                 <li>{{ $trans }}</li>
+                             @endforeach
 
-                             <li>
-                                 <i class="fa-solid fa-clock"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Duration</label>
-                                     <span class="value">5 Days , 6 Nights</span>
-                                 </div>
-                             </li>
-
-                             <li>
-                                 <i class="fa-solid fa-credit-card"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Payment Method</label>
-                                     <span class="value">VISA, Master Card</span>
-                                 </div>
-                             </li>
-
-                             <li>
-                                 <i class="fa-solid fa-utensils"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Meals</label>
-                                     <span class="value">Breakfast, Lunch, Dinner</span>
-                                 </div>
-                             </li>
-
-                             <li>
-                                 <i class="fa-solid fa-location-dot"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Location</label>
-                                     <span class="value">Basel, Switzerland</span>
-                                 </div>
-                             </li>
-
-                             <li>
-                                 <i class="fa-solid fa-language"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Language</label>
-                                     <span class="value">English, French, German</span>
-                                 </div>
-                             </li>
-                             <li>
-                                 <i class="fa-solid fa-suitcase"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Best Time</label>
-                                     <span class="value">April to October</span>
-                                 </div>
-                             </li>
-
-                             <li>
-                                 <i class="fa-solid fa-person-hiking"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Activities</label>
-                                     <span class="value">Hiking</span>
-                                 </div>
-                             </li>
-                             <li>
-                                 <i class="fa-solid fa-grip"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Trip Type</label>
-                                     <span class="value">Adventure</span>
-                                 </div>
-                             </li>
-
-                             <li>
-                                 <i class="fa-solid fa-arrow-trend-up"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Difficulty</label>
-                                     <span class="value">Hard</span>
-                                 </div>
-                             </li>
-
-                             <li>
-                                 <i class="fa-solid fa-car"></i>
-                                 <div class="trip-facts-text">
-                                     <label>Transportation</label>
-                                     <span class="value">Bus, Taxi</span>
-                                 </div>
-                             </li>
-
+                         </ul>
+                     </div><!-- END Tour Info -->
+                     <div class="tour_info">
+                         <h5>Exclusions</h5>
+                         <ul>
+                             @foreach ($package['exclusions'] as $exc)
+                                 <li>{{ $exc }}</li>
+                             @endforeach
 
                          </ul>
                      </div><!-- END Tour Info -->
@@ -124,43 +49,25 @@
                      <div class="booking_form stour_widget">
                          <div class="wpte-booking-inner-wrapper">
                              <!-- Discount Percent Badge -->
-                             <span class="wpte-bf-discount-tag">27% Off</span>
+                             <span class="wpte-bf-discount-tag">25% Off</span>
                              <div class="wpte-bf-price-wrap">
                                  <div class="wpte-bf-price">
-                                     <span class="wpte-bf-reg-price">
-                                         <span class="wpte-bf-price-from">From</span>
-                                         <del>$259</del>
-                                     </span>
+
                                      <span class="wpte-bf-offer-price">
-                                         <ins class="wpte-bf-offer-amount">$189</ins>
-                                         <div class="wpte-bf-pqty">/ Adult</div>
+                                         <ins class="wpte-bf-offer-amount">{{ $package['price'] }}</ins>
+                                         <div class="wpte-bf-pqty">/ Person</div>
                                      </span>
                                  </div>
 
-                                 <div class="wpte-bf-price">
-                                     <span class="wpte-bf-reg-price">
-                                         <span class="wpte-bf-price-from">From</span>
-                                     </span>
-                                     <span class="wpte-bf-offer-price">
-                                         <ins class="wpte-bf-offer-amount">$129</ins>
-                                         <div class="wpte-bf-pqty">/ Child</div>
-                                     </span>
-                                 </div>
 
-                                 <div class="wpte-bf-price">
-                                     <span class="wpte-bf-reg-price">
-                                         <span class="wpte-bf-price-from">From</span>
-                                         <del>$159</del>
-                                     </span>
-                                     <span class="wpte-bf-offer-price">
-                                         <ins class="wpte-bf-offer-amount">$139</ins>
-                                         <div class="wpte-bf-pqty">/ Youth</div>
-                                     </span>
-                                 </div>
+
+
                              </div>
 
                              <div class="wpte-bf-btn-wrap">
-                                 <button type="button" class="bobtn"><span>Booking Now</span></button>
+                                 <button class="yellow_btn d-none d-md-block align-self-center" data-bs-toggle="modal"
+                                     data-bs-target="#bookingModal" data-product="Product A"><span>Book
+                                         Now</span></button>
                              </div>
                          </div>
                      </div><!-- END Booking Form -->
