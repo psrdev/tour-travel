@@ -10,7 +10,7 @@ class FrontController extends Controller
 {
     public function home(PackageRepository $repo)
     {
-        $packages = $repo->all();
+        $packages = $repo->all()->take(4);
         // return $packages;
         return view('page.home', compact('packages'));
     }

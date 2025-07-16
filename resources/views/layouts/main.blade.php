@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel site - Travel Agency</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}">
+    <title>Brolion Tourism {{ isset($title) ? ' - ' . $title : '' }}</title>
+    <link rel="favicon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
 
     <!-- Google Fonts (external) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -4,7 +4,7 @@
           <div class="row">
               <div class="col-xl-7 col-md-3 col-12 gap-3 d-lg-flex d-block text-md-start text-center align-self-center">
                   <div class="site_logo d-inline-block">
-                      <a href="{{ route('front.home') }}"><img src="{{ asset('assets/img/logo.svg') }}"
+                      <a href="{{ route('front.home') }}"><img src="{{ asset('assets/img/logo.png') }}"
                               alt="Brolion Tourism"></a>
                   </div>
 
@@ -34,9 +34,9 @@
                           <span class="hsearch"><a href="#"><i class="ph ph-magnifying-glass"></i></a></span>
                       </div> --}}
 
-                      <button href="#" class="yellow_btn d-none d-md-block align-self-center"
-                          data-bs-toggle="modal" data-bs-target="#bookingModal" data-product="Product A">Book
-                          Now</button>
+                      <button class="yellow_btn d-none d-md-block align-self-center" data-bs-toggle="modal"
+                          data-bs-target="#bookingModal" data-product="Product A"><span>Book
+                              Now</span></button>
 
                       <div class="header__hamburger d-xl-none my-auto">
                           <div class="sidebar__toggle">

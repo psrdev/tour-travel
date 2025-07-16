@@ -23,13 +23,12 @@
                                             <i class="fa-solid fa-star"></i>
                                         </div>
                                         <p>
-                                            “Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                            roots in a piece of classical Latin literature from 45 BC, making it over
-                                            2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-                                            College in Virginia, looked up one of the more obscure , consectetur ”
+                                            “Brolion Tourism made our Dubai trip completely hassle-free. From visa
+                                            processing to hotel bookings, everything was handled with professionalism.
+                                            Highly recommended!”
                                         </p>
-                                        <h4>Muntasir Billah</h4>
-                                        <span class="designation">CEO of ABC LTD</span>
+                                        <h4>Amit Sharma</h4>
+                                        <span class="designation">Software Engineer</span>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -42,12 +41,11 @@
                                             <i class="fa-solid fa-star"></i>
                                         </div>
                                         <p>
-                                            “ Contrary to popular belief, Lorem Ipsum is not simply
-                                            random text. It has roots in a piece of classical Latin literature from 45
-                                            BC, making it over 2000 years old ”
+                                            “ Excellent customer service and prompt responses. I got my visa approved
+                                            quickly without any confusion. Thank you, Brolion Tourism! ”
                                         </p>
-                                        <h4>Masum Billah</h4>
-                                        <span class="designation">CEO of ABC LTD</span>
+                                        <h4>Pooja Mehta</h4>
+                                        <span class="designation">HR Executive</span>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -60,12 +58,11 @@
                                             <i class="fa-solid fa-star"></i>
                                         </div>
                                         <p>
-                                            “ Contrary to popular belief, Lorem Ipsum is not simply
-                                            random text. It has roots in a piece of classical Latin literature from 45
-                                            BC, making it over 2000 years old ”
+                                            “ We booked our honeymoon through Brolion and it was a dream come true. They
+                                            took care of every little detail. Loved the experience!d ”
                                         </p>
-                                        <h4>Mutasim Billah</h4>
-                                        <span class="designation">CEO of ABC LTD</span>
+                                        <h4>Rahul & Sneha Verma</h4>
+                                        <span class="designation">Marketing Manager</span>
                                     </div>
                                 </div>
                             </div>
@@ -80,19 +77,19 @@
                                     <div class="swiper-slide test_image-slide">
                                         <img src="assets/img/review/1.jpg" class="test_image1" alt="img">
                                         <span class="tlocation">
-                                            <i class="ph ph-map-pin"></i> Swizarland
+                                            <i class="ph ph-map-pin"></i> New Delhi
                                         </span>
                                     </div>
                                     <div class="swiper-slide test_image-slide">
                                         <img src="assets/img/review/2.jpg" class="test_image1" alt="img">
                                         <span class="tlocation">
-                                            <i class="ph ph-map-pin"></i> Australia
+                                            <i class="ph ph-map-pin"></i> Kochi
                                         </span>
                                     </div>
                                     <div class="swiper-slide test_image-slide">
                                         <img src="assets/img/review/3.jpg" class="test_image1" alt="img">
                                         <span class="tlocation">
-                                            <i class="ph ph-map-pin"></i> France
+                                            <i class="ph ph-map-pin"></i> Pune
                                         </span>
                                     </div>
                                 </div>

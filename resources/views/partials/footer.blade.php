@@ -28,30 +28,30 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-12">
                         <div class="footer_about mb-md-0 mb-5">
-                            <img src="assets/img/logo-white.svg" alt="img">
+                            <img src="{{ asset('assets/img/logo.png') }}" alt="Brolion Logo">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis imperdiet
-                                titor sodales vulputate
+                                Discover seamless travel experiences with Brolion Tourism. From visa assistance to
+                                curated tour packages, we make your journey unforgettable.
                             </p>
                             <span>Connect with us</span>
                             <ul class="social_link">
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/BrolionTours">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://x.com/BrolionTourism">
                                         <i class="fa-brands fa-x-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/broliontourism">
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.youtube.com/@BrolionTourism">
                                         <i class="fa-brands fa-youtube"></i>
                                     </a>
                                 </li>
@@ -61,7 +61,7 @@
                     <!-- End Col -->
                     <div class="col-xl-9 col-md-8 col-sm-6">
                         <div class="row">
-                            <div class="col-xl-2 col-lg-4 col-md-6 col-12">
+                            {{-- <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                                 <div class="footer_widget">
                                     <h3 class="footer-title">About Tourin</h3>
                                     <ul>
@@ -82,66 +82,40 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                             <!-- End Col -->
-                            <div class="col-xl-2 col-lg-4 col-md-6 col-12">
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                                 <div class="footer_widget">
                                     <h3 class="footer-title">Useful Links</h3>
                                     <ul>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="{{ route('front.about') }}">About</a>
                                         </li>
                                         <li>
-                                            <a href="#">Destinations</a>
+                                            <a href="{{ route('front.destination') }}">Destinations</a>
                                         </li>
                                         <li>
-                                            <a href="#">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Term & Conditions</a>
+                                            <a href="{{ route('front.privacy') }}">Privacy Policy</a>
                                         </li>
 
+
                                         <li>
-                                            <a href="#">Contact</a>
+                                            <a href="{{ route('front.contact') }}">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <!-- End Col -->
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
-                                {{-- <div class="footer_widget">
-                                    <h3 class="footer-title">Tour Gallery</h3>
-                                    <div class="footer_gallery">
-                                        <a href="#">
-                                            <img src="assets/img/footer/gallery/1.jpg" alt="img">
-                                        </a>
-                                        <a href="#">
-                                            <img src="assets/img/footer/gallery/2.jpg" alt="img">
-                                        </a>
-                                        <a href="#">
-                                            <img src="assets/img/footer/gallery/3.jpg" alt="img">
-                                        </a>
-                                        <a href="#">
-                                            <img src="assets/img/footer/gallery/4.jpg" alt="img">
-                                        </a>
-                                        <a href="#">
-                                            <img src="assets/img/footer/gallery/5.jpg" alt="img">
-                                        </a>
-                                        <a href="#">
-                                            <img src="assets/img/footer/gallery/6.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div> --}}
-                            </div>
+
+
                             <!-- End Col -->
                             <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                                 <div class="footer_widget">
                                     <h3 class="footer-title">Quick Contact</h3>
                                     <div class="footer_contact">
-                                        {{-- <p>
+                                        <p>
                                             <i class="ph ph-map-pin-area"></i>
-                                            <span>3600 Las Vegas Blvd S, Las
-                                                <br>Vegas, NV
+                                            <span>198/A Tulsibadi Ayodhya
+                                                <br>Uttar Pradesh, INDIA
                                             </span>
                                         </p>
                                         <p>
@@ -149,11 +123,11 @@
                                             <span>
                                                 <a href="tel:+9856554544">+9856 55 45 44</a>
                                             </span>
-                                        </p> --}}
+                                        </p>
                                         <p>
                                             <i class="ph ph-envelope-simple"></i>
                                             <span>
-                                                <a href="mailto:support@example.com">support@example.com</a>
+                                                <a href="mailto:info@broliontourism.com">info@broliontourism.com</a>
                                             </span>
                                         </p>
                                     </div>
@@ -168,7 +142,7 @@
                     <div class="col-12">
                         <div class="tr_copyright text-center">
                             <p>Copyright © 2025
-                                <a href="#">Brolion Tourism</a> All Right Reserved.
+                                <a href="https://">Brolion Tourism</a> All Right Reserved.
                             </p>
                         </div>
                     </div>

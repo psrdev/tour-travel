@@ -7,26 +7,11 @@
                      <div class="tour_entry_content">
                          <h3 class="tdtitle">Tour Overview</h3>
                          <p>
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat efficitur libero,
-                             et ultrices risus faucibus imperdiet. Donec quis sodales augue, sed viverra ligula.
-                             Maecenas eu magna dui. Sed pulvinar gravida tristique. Etiam sagittis, orci tempor
-                             sollicitudin malesuada, lorem mauris condimentum felis, nec dictum leo nisl quis nulla. Sed
-                             non felis ac mi porttitor pulvinar non id sem. Aenean id dui non nulla euismod euismod id a
-                             ipsum. Nunc vulputate mauris a mattis feugiat. Donec a massa odio. Vivamus non tincidunt
-                             massa. Morbi ac ante lectus. Vestibulum ante ipsum primis in faucibus orci luctus et
-                             ultrices posuere cubilia curae;
+                             {{ $package['description'] }}
                          </p>
+                         <h5 class="tdtitle">Tour Overview</h5>
 
-                         <p>
-                             Aliquam facilisis tortor a lectus fringilla rutrum. Maecenas placerat tempus tortor
-                             hendrerit interdum. In hac habitasse platea dictumst. Nam eget ex facilisis risus molestie
-                             suscipit. Cras tempus, erat tempor aliquam aliquet, ipsum elit ultricies elit, vel ornare
-                             elit tortor sit amet erat. Donec nec volutpat tellus. Nam volutpat tortor at lacus egestas,
-                             sit amet volutpat metus euismod. Donec viverra nisl vitae malesuada tristique. Nullam quis
-                             dolor in risus vulputate aliquam. Maecenas commodo consequat magna, et elementum tellus
-                             volutpat sed. Pellentesque eu massa ex. In sapien magna, elementum non porttitor at,
-                             sodales et lacus. Pellentesque sit amet dolor nunc.
-                         </p>
+
                      </div><!-- END Tour Entry Content -->
 
                      <div class="tour_info">
