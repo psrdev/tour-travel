@@ -16,6 +16,7 @@ class BackController extends Controller
             'phone' => 'required|string|max:20',
         ]);
         Mail::to('info@broliontourism.com')->send(new LeadMail($validated));
+        return view('page.thankyou');
 
     }
 }
