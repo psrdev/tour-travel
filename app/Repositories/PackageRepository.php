@@ -49,20 +49,21 @@ class PackageRepository
 
     }
 
-    public function findRelatedPackages(string $destinationSlug, string $packageSlug, int $limit = 6): \Illuminate\Support\Collection
+    public function findRelatedPackages(string $packageSlug, int $limit = 6)
     {
-        $match = $this->destinations->first(function ($item) use ($destinationSlug) {
-            return $item['destination']['slug'] === $destinationSlug;
-        });
+        // Flatten all packages and attach destination info
+        $allPackages = collect($this->destinations)
+            ->flatMap(function ($destinationItem) {
+                return collect($destinationItem['packages'])->map(function ($pkg) use ($destinationItem) {
+                    $pkg['destination_name'] = $destinationItem['destination']['name'];
+                    $pkg['destination_slug'] = $destinationItem['destination']['slug'];
+                    return $pkg;
+                });
+            });
 
-        if (!$match || empty($match['packages'])) {
-            return collect(); // return empty collection
-        }
-
-        return collect($match['packages'])
-            ->filter(function ($package) use ($packageSlug) {
-                return $package['slug'] !== $packageSlug; // exclude current package
-            })
+        // Exclude the current package and return limited related packages
+        return $allPackages
+            ->filter(fn($pkg) => $pkg['slug'] !== $packageSlug)
             ->take($limit);
     }
 }

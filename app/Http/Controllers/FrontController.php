@@ -53,7 +53,8 @@ class FrontController extends Controller
         $package = $repo->findPackage($dest, $pack);
         abort_if(!$dest || !$pack || !$package, 404);
 
-        $relatedPackages = $repo->findRelatedPackages($dest, $pack);
+        $relatedPackages = $repo->findRelatedPackages($pack, 6);
+        // return $relatedPackages;
 
         return view('page.tour-detail', [
             'dest' => $dest,
