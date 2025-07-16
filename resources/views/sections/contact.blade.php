@@ -50,7 +50,7 @@
                 </div>
             </div><!-- End Col --> --}}
 
-            <div class="col-lg-12 col-12 align-self-center wow fadeInUp">
+            {{-- <div class="col-lg-12 col-12 align-self-center wow fadeInUp">
                 <div class="contact-form">
                     <div class="section-heading">
                         <span>Get In Touch</span>
@@ -70,7 +70,7 @@
                     </form>
                     <p class="form-message text-start"></p>
                 </div>
-            </div><!-- End Col -->
+            </div><!-- End Col --> --}}
 
         </div>
     </div>

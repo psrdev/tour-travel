@@ -35,5 +35,14 @@ class FrontController extends Controller
 
         return view('page.privacy');
     }
+    public function destinationFilter($dest, PackageRepository $repo)
+    {
+        // return $repo->all();
+        $packages = $repo->findByDestinationSlug($dest);
+        // return $packages;
+
+        return view('page.tour-filter', compact('packages'));
+
+    }
 
 }

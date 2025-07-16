@@ -20,7 +20,7 @@
                 <div class="row g-4">
                     @foreach ($packages as $package)
                         <div class="col-xl-3 col-md-6 col-12">
-                            <a href="tour-list.html">
+                            <a href="{{ route('front.destination.filter', ['dest' => $package['destination']['slug']]) }}">
                                 <div class="category_item text-center">
                                     <img src="{{ asset('assets/img/category/' . $package['destination']['image']) }}"
                                         alt="{{ $package['destination']['slug'] }}">

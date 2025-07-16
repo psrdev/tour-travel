@@ -7,6 +7,8 @@
                      <h2>Amazing Tour Places</h2>
                  </div>
              </div>
+
+
              @foreach ($packages as $pack)
                  @foreach ($pack['packages'] as $p)
                      <div class="col-xl-4 col-lg-6 col-12 mix new featured">

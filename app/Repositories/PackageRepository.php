@@ -20,17 +20,19 @@ class PackageRepository
     }
 
     /** @return Collection of packages for one destination */
-    public function findByDestination(string $destinationSlug): Collection
+    public function findByDestinationSlug(string $destinationSlug): ?array
     {
-        return $this->destinations
-            ->firstWhere('slug', $destinationSlug)['packages']
-            ?? collect();
+        $match = $this->destinations->first(function ($item) use ($destinationSlug) {
+            return $item['destination']['slug'] === $destinationSlug;
+        });
+
+        return [$match] ?? [];
     }
 
 
     public function findPackage(string $destinationSlug, string $packageSlug): ?array
     {
-        return $this->findByDestination($destinationSlug)
-            ->firstWhere('slug', $packageSlug);
+        return $this->findByDestination($destinationSlug);
+
     }
 }
