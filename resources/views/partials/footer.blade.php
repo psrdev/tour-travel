@@ -95,6 +95,9 @@
                                             <a href="{{ route('front.destination') }}">Destinations</a>
                                         </li>
                                         <li>
+                                            <a href="{{ route('front.tours') }}">Tours</a>
+                                        </li>
+                                        <li>
                                             <a href="{{ route('front.privacy') }}">Privacy Policy</a>
                                         </li>
 

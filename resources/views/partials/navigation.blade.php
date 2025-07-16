@@ -13,6 +13,7 @@
                           <li><a href="{{ route('front.home') }}">Home <i class="fa-solid "></i></a></li>
                           <li><a href="{{ route('front.about') }}">About</a></li>
                           <li><a href="{{ route('front.destination') }}">Destination</a></li>
+                          <li><a href="{{ route('front.tours') }}">Tours</a></li>
                           <li><a href="{{ route('front.contact') }}">Contact</a></li>
                       </ul>
                   </nav>

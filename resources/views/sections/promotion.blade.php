@@ -17,10 +17,10 @@
                                     <br>
                                     Today!
                                 </h2>
-                                <a href="#" class="yellow_btn">
+                                <a href="{{ route('front.destination') }}" class="yellow_btn">
                                     <span>Discover More</span>
                                 </a>
-                                <img src="assets/img/cta/plane.svg" alt="img" class="plane">
+                                <img src="{{ asset('assets/img/cta/plane.svg') }}" alt="img" class="plane">
                             </div>
                         </div>
                         <!-- End Col -->
@@ -44,10 +44,10 @@
                                     <br>
                                     Go!
                                 </h2>
-                                <a href="#" class="white_btn">
+                                <a href="{{ route('front.tours') }}" class="white_btn">
                                     <span>Discover More</span>
                                 </a>
-                                <img src="assets/img/cta/plane.svg" alt="img" class="plane">
+                                <img src="{{ asset('assets/img/cta/plane.svg') }}" alt="img" class="plane">
                             </div>
                         </div>
                         <!-- End Col -->

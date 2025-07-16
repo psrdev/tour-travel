@@ -81,7 +81,7 @@
                                 <!-- End Col -->
                             </div>
                             <!-- End Row -->
-                            <a href="#" class="yellow_btn mt-4">
+                            <a href="{{ route('front.about') }}" class="yellow_btn mt-4">
                                 <span>Discover More</span>
                             </a>
                         </div>
