@@ -39,9 +39,13 @@ class FrontController extends Controller
     {
         // return $repo->all();
         $packages = $repo->findByDestinationSlug($dest);
-        // return $packages;
+        $validPackages = collect($packages)->filter();
 
-        return view('page.tour-filter', compact('packages'));
+        if ($validPackages->isEmpty()) {
+            abort(404);
+        }
+
+        return view('page.tour-filter', ['packages' => $validPackages]);
 
     }
 
