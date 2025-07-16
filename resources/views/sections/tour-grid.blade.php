@@ -38,7 +38,8 @@
 
                                  <div class="pack_btm d-flex">
                                      <span class="pack_price align-self-end"><b>{{ $p['price'] }}</b> </span>
-                                     <a href="tour-details.html" class="yellow_btn align-self-end ms-auto">Book Now</a>
+                                     <a href="{{ route('front.destination.package.filter', ['dest' => $pack['destination']['slug'], 'pack' => $p['slug']]) }}"
+                                         class="yellow_btn align-self-end ms-auto">Book Now</a>
                                  </div>
                              </div>
                          </div>

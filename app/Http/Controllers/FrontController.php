@@ -48,5 +48,22 @@ class FrontController extends Controller
         return view('page.tour-filter', ['packages' => $validPackages]);
 
     }
+    public function destinationPackageFilter($dest, $pack, PackageRepository $repo)
+    {
+        $package = $repo->findPackage($dest, $pack);
+        abort_if(!$dest || !$pack || !$package, 404);
+
+        $relatedPackages = $repo->findRelatedPackages($dest, $pack);
+
+        return view('page.tour-detail', [
+            'dest' => $dest,
+            'package' => $package,
+            'relatedPackages' => $relatedPackages,
+        ]);
+
+    }
+
+
+
 
 }
