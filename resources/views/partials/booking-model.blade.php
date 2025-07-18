@@ -9,6 +9,12 @@
                         @endforeach
                     </ul>
                 </div>
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const bookingModal = new bootstrap.Modal(document.getElementById('bookingModal'));
+                        bookingModal.show();
+                    });
+                </script>
             @endif
             <form method="POST" action="{{ route('back.booking') }}" id="bookingForm">
                 @csrf
@@ -31,14 +37,8 @@
                             <label class="form-label">Phone<b class="text-danger">*</b></label>
                             <input type="tel" name="phone" class="form-control" required>
                         </div>
-                        <div class="col-md-12 mt-3">
-                            <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
-                            <div class="g-recaptcha" data-sitekey="6Ld8RIYrAAAAAEHILG3doDbDANZh9cqOmQWEnoB4"
-                                data-action="LOGIN"></div>
-                            @error('g-recaptcha-response')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
+                        <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
+
 
                     </div>
                 </div>
