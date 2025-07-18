@@ -126,5 +126,46 @@
     </div>
 @endsection
 @push('meta')
-    <title>Privacy Policy | Brolion Tourism</title>
+    <title>Privacy Policy | Brolion Tourism Pvt Ltd</title>
+    <meta name="description"
+        content="Read the privacy policy of Brolion Tourism Pvt Ltd. Learn how we collect, use, and protect your personal information while booking travel packages or using our website.">
+    <meta name="keywords"
+        content="privacy policy, Brolion Tourism privacy, data protection, personal data, travel website policy">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.broliontourism.com/privacy-policy">
+
+    <meta property="og:title" content="Privacy Policy | Brolion Tourism Pvt Ltd">
+    <meta property="og:description"
+        content="Understand how Brolion Tourism handles and protects your personal data and privacy.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.broliontourism.com/privacy-policy">
+    <meta property="og:image" content="https://broliontourism.com/assets/img/og.jpg">
+    <meta property="og:site_name" content="Brolion Tourism">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy | Brolion Tourism">
+    <meta name="twitter:description" content="We value your privacy. See how Brolion Tourism uses and protects your data.">
+    <meta name="twitter:image" content="https://broliontourism.com/assets/img/og.jpg">
+    <meta name="twitter:url" content="https://www.broliontourism.com/privacy-policy">
+
+    @verbatim
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Privacy Policy",
+  "url": "https://www.broliontourism.com/privacy-policy",
+  "description": "Privacy policy of Brolion Tourism Pvt Ltd outlining data collection, storage, and protection practices.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brolion Tourism Pvt Ltd",
+    "url": "https://www.broliontourism.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://broliontourism.com/assets/img/logo.png"
+    }
+  }
+}
+</script>
+    @endverbatim
 @endpush

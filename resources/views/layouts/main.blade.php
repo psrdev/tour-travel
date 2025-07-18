@@ -5,6 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @stack('meta')
+    <meta name="author" content="Brolion Tourism Pvt Ltd" />
+    <meta name="page-topic" content="International Tourism, Travel Packages, Flights, Hotels, Visa Services" />
+    <meta name="copyright" content="Brolion Tourism Pvt Ltd ©️ 2025" />
+    <meta name="language" content="en" />
+    <meta name="owner" content="Brolion Tourism Pvt Ltd" />
+    <meta name="rating" content="General" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="daily" />
+    <meta name="distribution" content="global" />
+    <meta name="HandheldFriendly" content="true" />
+
+    <meta property="og:site_name" content="Brolion Tourism Pvt Ltd" />
+    <meta property="og:title" content="Explore International Tour Packages – Dubai, Thailand, Singapore, Georgia" />
+    <meta property="og:description"
+        content="Book exciting tour packages from India to Dubai, Singapore, Thailand & Georgia with visa, flights, hotels, and transfers included. Travel hassle-free with Brolion Tourism." />
+    <meta property="og:url" content="https://www.broliontourism.com" />
+    <meta property="og:image" content="https://broliontourism.com/assets/img/og.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Book Dubai, Singapore, Thailand & Georgia Tour Packages – Brolion Tourism" />
+    <meta name="twitter:description"
+        content="Discover international trips with flights, hotels, visa, and full support from Brolion Tourism Pvt Ltd." />
+    <meta name="twitter:image" content="https://broliontourism.com/assets/img/og.jpg" />
+    <meta name="twitter:url" content="https://x.com/BrolionTourism" />
 
     <link rel="favicon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
 

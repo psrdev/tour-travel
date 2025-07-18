@@ -23,7 +23,9 @@
                              <div class="pack_content">
                                  <span class="pack_rating"><i class="fa-solid fa-star"></i> 4.8 <span>(120
                                          Reviews)</span></span>
-                                 <h3><a href="tour-details.html">{{ $p['title'] }}</a></h3>
+                                 <h3><a
+                                         href="{{ route('front.destination.package.filter', ['dest' => $pack['destination']['slug'], 'pack' => $p['slug']]) }}">{{ $p['title'] }}</a>
+                                 </h3>
 
                                  <div class="pac_meta d-flex gap-2">
                                      <span class="pmeta_item"><i class="fa-regular fa-map"></i>

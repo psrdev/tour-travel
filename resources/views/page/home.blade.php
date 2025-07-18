@@ -49,7 +49,7 @@
     <meta property="og:description"
         content="Book exciting tour packages from India to Dubai, Singapore, Thailand & Georgia with visa, flights, hotels, and transfers included. Travel hassle-free with Brolion Tourism." />
     <meta property="og:url" content="https://www.broliontourism.com" />
-    <meta property="og:image" content="https://broliontourism.com/assets/img/logo.png" />
+    <meta property="og:image" content="https://broliontourism.com/assets/img/og.jpg" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
 
@@ -57,8 +57,9 @@
     <meta name="twitter:title" content="Book Dubai, Singapore, Thailand & Georgia Tour Packages – Brolion Tourism" />
     <meta name="twitter:description"
         content="Discover international trips with flights, hotels, visa, and full support from Brolion Tourism Pvt Ltd." />
-    <meta name="twitter:image" content="https://broliontourism.com/assets/img/logo.png" />
+    <meta name="twitter:image" content="https://broliontourism.com/assets/img/og.jpg" />
     <meta name="twitter:url" content="https://x.com/BrolionTourism" />
+
 
     @verbatim
         <script type="application/ld+json">

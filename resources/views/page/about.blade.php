@@ -18,7 +18,7 @@
     <meta property="og:title" content="About Brolion Tourism | Dubai, Thailand, Singapore Tour Experts" />
     <meta property="og:description"
         content="Know about Brolion Tourism - India's trusted travel agency for Dubai, Thailand, Singapore & Georgia packages with flight, hotel, and visa services." />
-    <meta property="og:image" content="https://broliontourism.com/assets/img/logo.png" />
+    <meta property="og:image" content="https://broliontourism.com/assets/img/og.jpg" />
     <meta property="og:site_name" content="Brolion Tourism" />
     <meta property="article:publisher" content="https://www.facebook.com/BrolionTourism/" />
     <meta name="twitter:card" content="summary_large_image" />
