@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brolion Tourism {{ isset($title) ? ' - ' . $title : '' }}</title>
+    @stack('meta')
+
     <link rel="favicon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
 
     <!-- Google Fonts (external) -->
@@ -129,6 +130,7 @@
             });
         });
     </script>
+    @stack('bodyClose')
 
 </body>
 
