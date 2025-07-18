@@ -6,3 +6,6 @@
 
     </div>
 @endsection
+@push('meta')
+    <title>Destination Brolion Tourism</title>
+@endpush

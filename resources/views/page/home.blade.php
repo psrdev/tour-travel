@@ -18,21 +18,21 @@
 @endsection
 
 @push('meta')
-    <!--  Title Tag -->
+    <!-- Title Tag -->
     <title>International Tour Packages | Dubai, Thailand, Singapore, Georgia Trips – Brolion Tourism</title>
 
-    <!--  Meta Description -->
+    <!-- Meta Description -->
     <meta name="description"
         content="Explore the best international tour packages to Dubai, Thailand, Singapore, and Georgia with Brolion Tourism Pvt Ltd. Book flights, hotels, visa & full travel services from India. Custom plans available at best prices." />
 
-    <!--  Meta Keywords -->
+    <!-- Meta Keywords -->
     <meta name="keywords"
         content="international tour packages, Dubai trip, Thailand holiday, Singapore tours, Georgia travel, visa assistance, flights and hotel booking, affordable international tours, Brolion Tourism Pvt Ltd, best travel agency India" />
 
-    <!--  Canonical URL -->
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://www.broliontourism.com" />
 
-    <!--  Other SEO Tags -->
+    <!-- Other SEO Tags -->
     <meta name="author" content="Brolion Tourism Pvt Ltd" />
     <meta name="page-topic" content="International Tourism, Travel Packages, Flights, Hotels, Visa Services" />
     <meta name="copyright" content="Brolion Tourism Pvt Ltd ©️ 2025" />
@@ -49,7 +49,7 @@
     <meta property="og:description"
         content="Book exciting tour packages from India to Dubai, Singapore, Thailand & Georgia with visa, flights, hotels, and transfers included. Travel hassle-free with Brolion Tourism." />
     <meta property="og:url" content="https://www.broliontourism.com" />
-    <meta property="og:image" content="https://www.broliontourism.com/images/brolion.jpg" />
+    <meta property="og:image" content="https://broliontourism.com/assets/img/logo.png" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
 
@@ -57,10 +57,9 @@
     <meta name="twitter:title" content="Book Dubai, Singapore, Thailand & Georgia Tour Packages – Brolion Tourism" />
     <meta name="twitter:description"
         content="Discover international trips with flights, hotels, visa, and full support from Brolion Tourism Pvt Ltd." />
-    <meta name="twitter:image" content="https://www.broliontourism.com/images/brolion.jpg" />
+    <meta name="twitter:image" content="https://broliontourism.com/assets/img/logo.png" />
     <meta name="twitter:url" content="https://x.com/BrolionTourism" />
-@endpush
-@push('meta')
+
     @verbatim
         <script type="application/ld+json">
 {
@@ -83,11 +82,6 @@
   }
 }
 </script>
-    @endverbatim
-@endpush
-
-@push('bodyClose')
-    @verbatim
         <script type="application/ld+json">
 {
   "@context": "https://schema.org",

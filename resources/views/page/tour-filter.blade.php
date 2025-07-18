@@ -7,3 +7,6 @@
 
     @include('sections.tour-grid', ['packages' => $packages])
 @endsection
+@push('meta')
+    <title>{{ $packages[0]['destination']['name'] }}</title>
+@endpush

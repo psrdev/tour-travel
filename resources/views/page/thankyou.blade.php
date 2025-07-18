@@ -25,3 +25,6 @@
     </section>
     <!-- End Page Not Found -->
 @endsection
+@push('meta')
+    <title>Thank You | Brolion Tourism</title>
+@endpush

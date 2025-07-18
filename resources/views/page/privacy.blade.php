@@ -125,3 +125,6 @@
 
     </div>
 @endsection
+@push('meta')
+    <title>Privacy Policy | Brolion Tourism</title>
+@endpush
