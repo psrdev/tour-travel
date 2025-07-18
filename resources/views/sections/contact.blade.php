@@ -34,7 +34,7 @@
                     <div class="cinfo_content">
                         <h3>Phone Number</h3>
                         <p>
-                            <a href="tel:+9901254789658">+9901254789658</a><br>
+                            <a href="tel:+917566000147">+917566000147</a><br>
                         </p>
                     </div>
                 </div>

@@ -124,7 +124,7 @@
                                         <p>
                                             <i class="ph ph-phone-call"></i>
                                             <span>
-                                                <a href="tel:+919202106551">+91 9202106551</a>
+                                                <a href="tel:+917566000147">+91 7566000147</a>
                                             </span>
                                         </p>
                                         <p>

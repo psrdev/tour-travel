@@ -4,7 +4,7 @@
     @include('sections.contact')
 @endsection
 @push('meta')
-    title>Contact Brolion Tourism Pvt Ltd | Tour Booking & Visa Assistance</title>
+    <title>Contact Brolion Tourism Pvt Ltd | Tour Booking & Visa Assistance</title>
     <meta name="description"
         content="Get in touch with Brolion Tourism for international tour bookings, visa support, or general travel inquiries. Reach us via phone, email, or our contact form.">
     <meta name="keywords"
